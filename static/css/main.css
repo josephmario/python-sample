@@ -1,10 +1,11 @@
 body{
   font-family: Calibri, serif;
   font-size: 0.9em;
+  padding: 20px;
 }
 
 @page {
-    margin: 1.5cm 1cm; padding-left: 0.5cm;
+    margin: 1cm 0.5cm; padding-top: 0cm;
     font-size: 0.7em;
     font-family: Calibri, serif;
     @top-left {
@@ -13,8 +14,7 @@ body{
         content: "GRN";}
     @bottom-right {
           content: counter(page)
-                   "/"counter(pages);
-                  }}
+                   "/"counter(pages);}}
 
 .main-container{
   padding-top: 0.5cm;
@@ -56,7 +56,7 @@ p{
   margin:1px;
 }
 .company-container{
-  width:52%;
+  width:55%;
   float:left;
 }
 .client-container{
