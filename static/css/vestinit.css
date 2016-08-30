@@ -1,0 +1,85 @@
+#section1-firsttext
+{
+  font-weight: bolder;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-size: 73.71px;
+  color: white;
+}
+#section1-secondtext
+{
+  font-size: 30px;
+  font-weight: lighter;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  color: white;
+}
+#section1-thirdtext
+{
+  font-size: 30px;
+  font-weight: lighter;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  color: white;
+}
+.section2-titletext {
+    font-weight: bolder;
+    font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    color: #006600;
+    font-size: 25px;
+}
+.section3-title {
+    font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size: 64.31px;
+    color: white;
+}
+.section3-body-title {
+    font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size: 32.44px;
+    font-weight: bolder;
+    color: white;
+  }
+.section3-body-paragraph {
+      font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+      color: white;
+  }
+.section4-body-title1 {
+      font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+      color: #005952;
+      font-weight: bolder;
+  }
+.section4-body-title2 {
+        font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+        color: #078c9c;
+        font-weight: bolder;
+  }
+.section5-title {
+      font-size: 51px;
+      font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+      font-weight: bold;
+      color: white;
+  }
+#div1
+{
+  background-image: url("/images/bg1.png");
+}
+#div3
+{
+  background-image: url("/images/bg2.png");
+}
+#div4
+{
+  background-image: url("/images/bg3.png");
+}
+div#div4 address, div#div4 h3, div#div4 label{
+    color: white;
+}
+.backgroundImage
+{
+    background-repeat: no-repeat;
+}
+.screenFiller
+{
+    height: 100%; /* 100/56.25 = 1.778 */
+    max-height: 100%;
+    margin: auto;
+    position: relative;;
+    top:0;bottom:0; /* vertical center */
+}
